@@ -2,4 +2,25 @@
 
 body{
     background: white;
+    height: 100%; /* Cambié de vh a % */
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px; /* Cambié de rem a px */
+    margin-bottom: 30px; /* Cambié de rem a px */
+}
+
+#excuse {
+    font-size: 24px; /* Cambié de rem a px */
+    color: #555;
+    margin-bottom: 40px; /* Cambié de rem a px */
 }
