@@ -27,6 +27,12 @@ window.onload = function() {
     return `${part1} ${part2} ${part3} ${part4}`;
   }
 
-  const excuseElement = document.getElementById("excuse");
-  excuseElement.innerText = generateExcuse();
-};
+  const excuseElement = document.getElementById("excuse");  //obtener donde mostrar excusa
+  excuseElement.innerText = generateExcuse(); //generar excusa al cargar la pagina
+  const button = document.getElementById("new-excuse"); //obtener el boton
+  button.addEventListener("click", function() { 
+    excuseElement.innerText = generateExcuse();
+  });
+  
+  }
+

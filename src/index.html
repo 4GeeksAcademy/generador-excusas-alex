@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hello Rigo with Vanilla.js</title>
 
-    <!-- Fontawesome is our recomended library for icons -->
+    <!-- Fontawesome librería para iconos -->
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
@@ -15,20 +15,26 @@
     />
   </head>
   <body>
-    <!-- Write your HTML code here, you can delete everything withing the body tags -->
+    <!-- HTML code  -->
     <div class="container text-center d-flex flex-column justify-content-center align-items-center vh-100">
       <h1 class="mb-4">🧠 Excuse Generator</h1>
       <p id="excuse" class="fs-3 text-muted">Loading excuse...</p>
-  
+      <button
+        id="new-excuse"
+        class="btn btn-primary btn-lg mt-4"
+        type="button"
+        >
+        Get New Excuse
+      </button>
       <div class="fixed-bottom p-4">
         Made with ❤️ by
         <a href="https://www.4geeksacademy.com">4Geeks Academy</a>
       </div>
     </div>
   
-    <script type="module" src="/app.js"></script>
+    
 
-    <!-- Do not delete this script tag, this is what connects your HTML with the Javascript code -->
+    <!-- conecta HTML con Javascript code -->
     <script type="module" src="/app.js"></script>
   </body>
 </html>
