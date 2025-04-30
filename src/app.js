@@ -30,8 +30,8 @@ window.onload = function() {
   const excuseElement = document.getElementById("excuse");  //obtener donde mostrar excusa
   excuseElement.innerText = generateExcuse(); //generar excusa al cargar la pagina
   const button = document.getElementById("new-excuse"); //obtener el boton
-  button.addEventListener("click", function() { 
-    excuseElement.innerText = generateExcuse();
+  button.addEventListener("click", function() { //añado funcion al boton para guardar cuando se hace click
+    excuseElement.innerText = generateExcuse(); //al hacer click llama a la funcion para generar una nueva excusa
   });
   
   }
